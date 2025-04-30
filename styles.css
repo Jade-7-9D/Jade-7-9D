@@ -1,0 +1,180 @@
+body{
+    margin:0px ;
+}
+header{
+    display:flex;
+    top: 0;
+    width: 100%;
+    background-color:#2872c5;
+    justify-content:space-between;
+    position:fixed;
+    z-index:1;
+    color:rgb(255, 255, 255);
+    padding:20px;
+}
+nav a{
+    padding:10px 25px;
+    text-decoration:none;
+    color: rgb(255, 255, 255);
+}
+ nav a:hover {
+     background-color: rgb(245, 222, 133);
+ }
+.banner{
+    float: left;
+    color: black;
+}
+
+section.home{
+    background: url("WhatsApp Image 2025-04-29 at 10.04.25 AM.jpeg");
+    background-size:cover ;
+    background-repeat:no-repeat ;
+    background-attachment:fixed ;
+    height:600px ;
+}
+
+section.home div{
+text-align: center; 
+color: rgb(255, 255, 255); 
+margin:auto; 
+width: 70%; 
+padding: 20px; 
+}
+
+section.home .Welcome{
+font-size: 30px; 
+padding-top: 60px;
+}
+
+section.home a{
+color: rgb(255, 255, 255); 
+padding: 10px 20px; 
+text-decoration: none; 
+box-shadow: 0px 0px 3px; 
+border-radius: 20px; 
+}
+
+section.about{
+    background-color: rgb(240, 211, 51); 
+    height:600px ;
+    padding-top: 100px;
+}
+section.about div{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin: auto;
+    width: 70%;
+}
+section.about img{
+    height: 370px;
+}
+
+section.product{
+    background:url("WhatsApp Image 2025-04-28 at 9.29.45 PM.jpeg") ;
+    background-size:cover ;
+    background-repeat:no-repeat ;
+    background-attachment:fixed ;
+    height:1370px ;
+}
+section.product .container{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 50px;
+}
+section.product .container .card{
+    background-color:rgb(255, 255, 255); 
+    text-align: center;
+    padding: 5px;
+    width: 240px;
+    height: 600px;
+    margin: 15px;
+}
+section.product .container .card img{
+    width: 80%;
+}
+section.product .container .card a{
+    color:rgb(0, 0, 0); 
+    padding:5px 20px ;
+    text-decoration: none;
+    box-shadow: 0px 0px 3px;
+    border-radius: 20px;
+}
+section.product .container .card:hover{
+    box-shadow: 0 0 50px rgb(240, 211, 51); 
+    transition: 0,3s;
+    animation: goyang 0.5s;
+
+}
+
+@keyframes goyang {
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(3deg);
+    }
+    50% {
+        transform: rotate(-3deg);
+    }
+    75% {
+        transform: rotate(1deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+section.contact{
+    background-color:  rgb(48, 171, 209); 
+    height:600px ;
+}
+section.contact .card{
+    margin:auto ;
+    color:rgb(255, 255, 255);
+    text-align:center ;
+    padding-top: 100px;
+    width:400px ;
+}
+section.contact .card img{
+    width: 400px;
+    height: 390px;
+}
+
+footer{
+    background-color: rgb(240, 211, 51); 
+    height:50px ;
+}
+footer .medsos{
+    text-align: center;
+    padding-top: 10px;
+}
+footer .medsos a{
+color:rgb(0, 0, 0) ;
+font-size: 20px;
+padding: 5px 20px;
+}
+
+h1{
+    font-size: 30px ;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    text-shadow: 0px 0px 10px rgb(0, 0, 0);
+}
+
+h2{
+    font-size: 25px ;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    text-shadow:0px 0px 10px rgb(0, 0, 0); 
+}
+
+h3{
+    font-size: 20px ;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    text-shadow:0px 0px 10px rgb(95, 196, 255); 
+}
+
+h4{
+    font-size: 15px ;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    text-shadow:0px 0px 10px rgb(0, 0, 0); 
+}
